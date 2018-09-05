@@ -12,5 +12,5 @@ The docker image it-self is available on the docker-hub : https://hub.docker.com
 
 You can run it using :
 ```shell
-git run -d -p 8080:8080 thomaspoignant/hello-world-rest-json
+docker run -d -p 8080:8080 thomaspoignant/hello-world-rest-json
 ```
