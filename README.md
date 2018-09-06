@@ -21,6 +21,7 @@ The only things it does is to respond
 ```
 When you call ```http://localhost:8080```.
 
+### CORS
 We also add CORS wildcard to be sure you can put it behind your gateway.
 ```shell
 > curl -H "Origin: http://example.org" --verbose http://localhost:8080/
